@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mouseTransparent="true" onKeyPressed="#exitOnKey" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StarsController">
+   <children>
+      <Pane mouseTransparent="true" prefHeight="1080.0" prefWidth="1920.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <ImageView blendMode="SRC_ATOP" fitHeight="1080.0" fitWidth="1920.0" mouseTransparent="true" pickOnBounds="true">
+         <image>
+            <Image url="@assets/ivana-cajina-asuyh-_ZX54-unsplash.jpg" />
+         </image>
+      </ImageView>
+      <Canvas fx:id="canvas" height="1080.0" mouseTransparent="true" width="1920.0" />
+   </children>
+</AnchorPane>
